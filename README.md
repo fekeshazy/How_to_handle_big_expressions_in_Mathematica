@@ -14,7 +14,7 @@ However, some **core symbolic functions** (e.g. `Expand`, `Series`, `Apart` etc)
 
 ## Contents
 
-- the Text_of_blog_post_polished.txt file contains the text of the blog post at 
+- the Text_of_blog_post_polished.txt file contains the text of the blog post at https://community.wolfram.com/groups/-/m/t/3540598?p_p_auth=s7yUdrMB
 - the directory Examples contain:
   - the code in Functions.m
   - and their corresponding examples in Examples.m
