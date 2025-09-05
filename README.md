@@ -16,10 +16,9 @@ However, some **core symbolic functions** (e.g. `Expand`, `Series`, `Apart` etc)
 
 - the Text_of_blog_post_polished.txt file contains the text of the blog post at 
 - the directory Examples contain:
-         
-         - the code in Functions.m
-         - and their corresponding examples in Examples.m
-         - the other .mx files are the expression used in the examples.
+  - the code in Functions.m
+  - and their corresponding examples in Examples.m
+  - the other .mx files are the expression used in the examples.
 
 ---
 
