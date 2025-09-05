@@ -317,17 +317,17 @@ CheckNumericallyIfZero[expr_]:=
 
 
          (*
-         This function implement the Eucledian method for partial function decomposition.
+         This function implement the Euclidean method for partial function decomposition.
 
                   -The first argument is the expression, which's numerator should be only a monomial.
                   -The second argument is the variable. 
          *)
 
-ClearAll[EucledianMethodPartialFraction]
+ClearAll[EuclideanMethodPartialFraction]
 
-EucledianMethodPartialFraction[expr_, var_, options: OptionsPattern[] ] :=expr/;FreeQ[expr,var];
+EuclideanMethodPartialFraction[expr_, var_, options: OptionsPattern[] ] :=expr/;FreeQ[expr,var];
 
-EucledianMethodPartialFraction[expr_, var_, options: OptionsPattern[] ] :=
+EuclideanMethodPartialFraction[expr_, var_, options: OptionsPattern[] ] :=
  	Block[
   	{
    	tmp, (*Universal temporary variable.*)
